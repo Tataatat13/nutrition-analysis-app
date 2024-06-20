@@ -89,14 +89,14 @@ useEffect(() =>{
               placeholder='Search ...'
               onChange={myRecipeSearch}
               />
-              
-              <li className='example'>for example:</li>
-              <li className='example'>
+              <ul className='example'>
+              <li>for example:</li>
+              <li>
                 1 banana 2 apples or
                 1 glass of orange juice or
                 1 tablespoon of olive oil
                 </li>
-              
+                </ul>
               <button type='Submit'>Click here</button>
               {
           myNutrients && <p className='total'>Total calories - <em className='calories'>{myNutrients.calories} Kcal</em> </p>

@@ -79,6 +79,9 @@ h4 {
     
 }
 .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Montserrat",sans-serif;
     font-style: italic;
     font-size: 15px;
